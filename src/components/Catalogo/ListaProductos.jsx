@@ -4,7 +4,6 @@ import './style.css'
 import { Link } from 'react-router-dom';
 
 
-
 export const ListaProductos = () => {
     const [loading, setLoading] = useState(false);
     const [items, setItems] = useState([]);
@@ -45,10 +44,3 @@ export const ListaProductos = () => {
     );
 };
 
-const Productos = () => {
-    const [productoSeleccionado, setProductoSeleccionado] = useState(null);
-  
-    const mostrarDetalle = (id) => {
-      setProductoSeleccionado(id);
-    };
-}

@@ -4,14 +4,10 @@ import { useParams } from "react-router-dom";
 import './style.css'
 
 
-export const DetalleProducto = ({ match }) => {
+export const DetalleProducto = () => {
 
     const {id} = useParams();
     const productoEncontrado = stock.find((producto) => producto.id === parseInt(id));
-
-   
-        console.log("ID del producto:", id);
-
 
     if (!productoEncontrado) {
 
