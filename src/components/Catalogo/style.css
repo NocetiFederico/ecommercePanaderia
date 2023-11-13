@@ -1,0 +1,27 @@
+.card-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+
+}
+.card-list .card{
+    margin: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 43px black;
+    width: 300px;
+
+}
+.card-list img{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
+p, h5{
+    font-family: cursive;
+    color: white;
+    font-size: larger;
+}   

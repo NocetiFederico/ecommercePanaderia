@@ -1,0 +1,30 @@
+.cardDetalle{
+
+    width: auto;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 50px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: larger;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 16px;
+
+}
+.cardDetalle p{
+    color: black;
+}
+.cardDetalle img{
+
+    width: 400px;
+    border-radius: 16px;
+    border: solid 4px black;
+
+}

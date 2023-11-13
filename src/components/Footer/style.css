@@ -1,0 +1,41 @@
+.container {
+    background-color: rgb(34, 40, 49);
+    border-radius: 22px;
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+
+.container img {
+    margin: 5px;
+    padding: 25px;
+
+}
+
+.container img {
+
+    width: 140px;
+
+}
+
+.container h3 {
+    color: #f2f2f2;
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+
+}
+
+.container p {
+    color: #f2f2f2;
+
+}
+
+.container .datos-admin {
+    color: #f2f2f2;
+    padding: 25px;
+    text-align: center;
+}
