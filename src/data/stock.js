@@ -5,7 +5,7 @@ export const stock = [
       name: 'Cañoncitos',
       description: 'Cañoncitos de Dulce de Leche',
       price: 60,
-      photo: './public/image/cañoncitosDDL.png',
+      photo: '/public/image/cañoncitosDDL.png',
       category: "Comida"
     },
     {
